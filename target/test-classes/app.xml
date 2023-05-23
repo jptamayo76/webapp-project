@@ -1,0 +1,11 @@
+                <maximo-application id="attributeAppWithComments1">
+                    <maximo-datasource id="attributeDsAppWithComments1">
+                        <schema>
+                          <code-comment text="this section is commented out for now">
+                            <attribute name="inspectionresultid" unique-id="true"/>
+                            <attribute name="siteid"/>
+                          </code-comment>
+                          <attribute name="totalcostformula" title="Total Cost" is-formula="true" />
+                        </schema>
+                    </maximo-datasource>
+                </maximo-application>
